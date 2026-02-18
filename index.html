@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini DAO</title>
+</head>
+<body>
+
+<h2>DAO Governance</h2>
+
+<button id="connect">Connect Wallet</button>
+
+<h3>Create Proposal</h3>
+<input id="desc" placeholder="Proposal description"/>
+<input id="duration" placeholder="Duration seconds"/>
+<button id="create">Create</button>
+
+<h3>Vote</h3>
+<input id="voteId" placeholder="Proposal ID"/>
+<button id="yes">Vote YES</button>
+<button id="no">Vote NO</button>
+
+<h3>Execute</h3>
+<input id="execId" placeholder="Proposal ID"/>
+<button id="execute">Execute</button>
+
+<p id="status"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
