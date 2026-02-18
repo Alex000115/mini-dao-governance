@@ -1,0 +1,14 @@
+{
+  "name": "mini-dao-governance",
+  "version": "1.0.0",
+  "description": "Simple DAO governance system",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run deploy.js --network localhost"
+  },
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "hardhat": "^2.22.0"
+  }
+}
